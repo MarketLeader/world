@@ -5,5 +5,5 @@ Live based layout &amp; valid HTML5. Hosted directly from the project GitHub rep
 
 
 ***
-|[:house: Home](https://github.com/hyip)|[Next :arrow_forward:](https://github.com/hyipinfo/hyipinfo.github.io)|
+|[:house:](https://github.com/hyip) [Home](https://github.com/hyip)|[Next](https://github.com/hyipinfo/hyipinfo.github.io) [:arrow_forward:](https://github.com/hyipinfo/hyipinfo.github.io)|
 |:----|----:|
