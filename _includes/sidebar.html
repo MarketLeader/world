@@ -19,7 +19,7 @@
 
 
 {% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
+  <li><a name="{{ category | first }}">{{ category | first }} ({{ category.posts | size }} total)</a>
     <ul>
     {% for posts in category %}
       {% for post in posts %}
