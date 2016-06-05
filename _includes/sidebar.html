@@ -11,7 +11,7 @@
         <ul class='subnavlist'>
         {% assign posts = site.categories[tag] | sort:"weight" %}
         {% for post in posts %}
-            <li class='recipe {% if post.url == page.url %}"current"{% endif %}'>
+            <li class='recipe {% if post.url == page.url %}current{% endif %}'>
     			<a  href="/{{ site.github.project_title }}{{ post.url }}">{{ post.title }}</a>
 			</li>
         {% endfor %}
