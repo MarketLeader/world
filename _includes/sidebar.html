@@ -9,7 +9,8 @@
 {% for tag in sortedtags %}
     <li class="topic-header"><b>{{ tag }} ({{ site.categories[tag] | size }} topics)</b>
         <ul class='subnavlist'>
-  {% for post in site.categories[tag] %}
+  {% assign posts = site.categories[tag] | sort:"weight" %}
+  {% for post in posts %}
             <li class='recipe'><a href="/{{ site.github.project_title }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
         </ul>
