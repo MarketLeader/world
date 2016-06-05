@@ -1,19 +1,19 @@
 <h2 class="question">Topics ({{ site.posts | size }} total)</h2>
 <ul class="topics">
 {% capture tags %}
-  {% for tag in site.categories %}
-    {{ tag[0] }}
-  {% endfor %}
+    {% for tag in site.categories %}
+        {{ tag[0] }}
+    {% endfor %}
 {% endcapture %}
 {% assign sortedtags = tags | split:' ' | sort %}
-{% for tag in sortedtags %}
+    {% for tag in sortedtags %}
     <li class="topic-header"><b>{{ tag }} ({{ site.categories[tag] | size }} topics)</b>
         <ul class='subnavlist'>
-  {% assign posts = site.categories[tag] | sort:"weight" %}
-  {% for post in posts %}
+        {% assign posts = site.categories[tag] | sort:"weight" %}
+        {% for post in posts %}
             <li class='recipe'><a href="/{{ site.github.project_title }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+        {% endfor %}
         </ul>
     </li>
-{% endfor %}
+    {% endfor %}
 </ul>
