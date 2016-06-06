@@ -5,7 +5,8 @@ category: Resources
 weight: 647
 ---
 
-## How to maintain uniformity against external network
+How to maintain uniformity against external network
+===================================================
 
 ### From Idle
 
