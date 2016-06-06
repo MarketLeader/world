@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Internal Security
+title: External Security
 category: Resources
 weight: 647
 ---
