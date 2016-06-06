@@ -6,8 +6,8 @@ weight: 648
 ---
 
 ## How to maintain uniformity against internal worm
-There are many (good) presentations about REST and HTTP out there. Most of these can be found on local 
-meetups or development conferences all over the world. See below for some of the slides of these presentations.
+Most of these can be found on local meetups or development conferences all over the world. 
+See below for some of the slides of these presentations.
 
 ### How to protect
 
