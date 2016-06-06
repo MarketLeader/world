@@ -5,7 +5,7 @@ category: Resources
 weight: 648
 ---
 
-<h2 class="question">How to maintain uniformity againts network</h2>
+<h2 class="question">How to maintain uniformity againts internal network</h2>
 
 <p>There are many (good) presentations about REST and HTTP out there. Most of these can be found on local meetups or
     development conferences all over the world. See below for some of the slides of these presentations.</p>
