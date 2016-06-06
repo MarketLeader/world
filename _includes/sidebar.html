@@ -7,6 +7,5 @@
                             <ul class='subnavlist'>{% for post in posts %}
                                 <li class='recipe{% if post.url == page.url %} active{% endif %}'><a href="/{{ site.github.project_title }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
                             </ul>
-                        </li>
-    {% endfor %}
+                        </li>{% endfor %}
                     </ul>
