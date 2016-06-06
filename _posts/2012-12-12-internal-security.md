@@ -5,11 +5,11 @@ category: Resources
 weight: 648
 ---
 
-# How to maintain uniformity against internal worm
+## Maintain uniformity against internal worm
 Most of these can be found on local meetups or development conferences all over the world. 
 See below for some of the slides of these presentations.
 
-## How to protect
+### How to protect
 ```xml
 POST /blogs HTTP/1.1
 <xml>
@@ -17,12 +17,12 @@ POST /blogs HTTP/1.1
 </xml>
 ```
 
-## Guidance on protection
+### Guidance on protection
 
-## Reliable Resource
+### Reliable Resource
 
-## To detect it is on remote
+### To detect it is on remote
 
-## To detect it is already on system
+### To detect it is already on system
 
-## To detect kind and from where it is coming
+### To detect kind and from where it is coming

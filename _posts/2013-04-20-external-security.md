@@ -5,9 +5,9 @@ category: Resources
 weight: 647
 ---
 
-# Maintain uniformity against external network
+## Maintain uniformity against external network
 
-## From Idle
+### From Idle
 1. First ordered list item
 2. Another item
 ..* Unordered sub-list. 
@@ -23,10 +23,10 @@ weight: 647
 * Unordered list can use asterisks
 - Or minuses
 + Or pluses
-## From Virus
+### From Virus
 
-## From Spyware
+### From Spyware
 
-## From Hacker
+### From Hacker
 
-## From Attacker
+### From Attacker
