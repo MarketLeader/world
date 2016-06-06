@@ -5,17 +5,18 @@ category: Resources
 weight: 648
 ---
 
-## How to maintain uniformity against internal network
+## How to maintain uniformity against internal worm
 There are many (good) presentations about REST and HTTP out there. Most of these can be found on local 
 meetups or development conferences all over the world. See below for some of the slides of these presentations.
 
-### From Idle
+### How to protect
 
-### From Virus
+### Guidance on protection
 
-### From Spyware
+### Reliable Resource
 
-### From Hacker
+### To detect it is on remote
 
-### From Attacker
+### To detect it is already on system
 
+### To detect kind and from where it is coming
