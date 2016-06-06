@@ -5,7 +5,7 @@ category: Resources
 weight: 648
 ---
 
-## How to maintain uniformity against internal worm
+# How to maintain uniformity against internal worm
 Most of these can be found on local meetups or development conferences all over the world. 
 See below for some of the slides of these presentations.
 
