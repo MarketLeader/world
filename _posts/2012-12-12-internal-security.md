@@ -10,6 +10,12 @@ Most of these can be found on local meetups or development conferences all over 
 See below for some of the slides of these presentations.
 
 ### How to protect
+{% highlight xml %}
+POST /blogs HTTP/1.1
+<xml>
+    blogdata
+</xml>
+{% endhighlight %}
 
 ### Guidance on protection
 
