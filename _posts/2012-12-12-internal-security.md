@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Maintain Againts Network
+title: Internal Security
 category: Resources
 weight: 648
 ---
