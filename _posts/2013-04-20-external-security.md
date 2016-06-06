@@ -7,7 +7,7 @@ weight: 647
 
 ## How to maintain uniformity against external network
 
-### During maintenance
+### From Idle
 
 ### From Virus
 
