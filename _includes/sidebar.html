@@ -1,9 +1,4 @@
-{% capture tags %}
-    {% for tag in site.categories %}
-        {{ tag[0] }}
-    {% endfor %}
-{% endcapture %}
-{% assign sortedtags = tags | split:' ' | sort %}
+{% capture tags %}{% for tag in site.categories %}{{ tag[0] }}{% endfor %}{% endcapture %}{% assign sortedtags = tags | split:' ' | sort %}
                     <h2 class="question">Topics ({{ site.posts | size }} total)</h2>
                     <ul class="topics">
     {% for tag in sortedtags %}
