@@ -4,7 +4,7 @@
     {% endfor %}
 {% endcapture %}
 {% assign sortedtags = tags | split:' ' | sort %}
-                    <h2 class="question">Topics ({{ site.posts | size }} total)</h2>
+                    <h2 class="text_2 color_2">Topics ({{ site.posts | size }} total)</h2>
                     <ul class="topics">
     {% for tag in sortedtags %}
          {% assign posts = site.categories[tag] | sort:"weight" %}
