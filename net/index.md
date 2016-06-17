@@ -1,5 +1,8 @@
 ---
+title: Networking
 layout: base
+layout-source: https://github.com/hyip/world/blob/gh-pages/_layouts/base.html
+hyiplink: http://hyip.github.io/world/net/
 ---
 <h2 id='welcome_to_the_rest_cookbook'>Welcome to the REST CookBook</h2>
 
