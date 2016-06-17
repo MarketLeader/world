@@ -8,7 +8,7 @@
                     <ul class="topics">
     {% for tag in sortedtags %}
          {% assign posts = site.categories[tag] | sort:"weight" %}
-                       <li class="topic-header" data-toggle="collapse" data-target="#{{ tag }}" class="collapsed active"><b>{{ tag }} ({{ posts | size }} topics)</b>
+                       <li class="topic-header" data-toggle="collapse" data-target="#{{ tag }}" class="collapsed"><b>{{ tag }} ({{ posts | size }} topics)</b>
                             <ul class="sub-menu collapse" id="{{ tag }}">
         {% for post in posts %}
                                 <li class='recipe{% if post.url == page.url %} active{% endif %}'><a href="/{{ site.github.project_title }}{{ post.url }}">{{ post.title }}</a></li>
