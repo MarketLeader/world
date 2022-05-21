@@ -1,6 +1,6 @@
 ---
 title: Networking
-layout: base
+layout: home
 layout-source: https://github.com/hyip/world/blob/gh-pages/_layouts/base.html
 tags:
   - hyip
