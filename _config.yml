@@ -4,8 +4,8 @@ exclude:
   - Capfile
   - config
 
-url: http://hyip.github.io
-name: The HYIP Project
+url: http://eq19.github.io
+name: The ₠Quantum Project
 topic: Networking
 path: /world/net
 
